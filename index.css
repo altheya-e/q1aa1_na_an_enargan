@@ -12,7 +12,7 @@
 }
 
 .header{
-    display: block
+    display: block;
     position: fixed;
     background-color: #F9DC5C;
     border: 1px solid #99621E;
@@ -43,6 +43,7 @@
     
 #links a{
     text-decoration: none;
+    
     font-size: larger;
     color: #99621E;
     text-shadow: 2px 2px #FCEFB4;
@@ -129,4 +130,3 @@
     height: 35px;
     width: 35px;
 }
-
