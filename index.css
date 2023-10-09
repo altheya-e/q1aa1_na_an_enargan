@@ -13,6 +13,7 @@
  .header{
         display: block;
         position: relative;
+        top: 0px;        
         background-color: #F9DC5C;
         border: 1px solid #99621E;
         height: 10vh;
