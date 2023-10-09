@@ -6,6 +6,11 @@
     padding: 0px;
     margin: 0px;
 }
+
+.container{
+    position: relative;
+}
+
 .header{
     display: block;
     position: relative;
@@ -110,12 +115,14 @@
     display: inline-block;
     padding-top: 4vh;
     padding-left: 4vw;
+    font-size: 0.7em;
     color: #99621E;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .footer img{
     display: inline;
+    position: relative;
     float: right;
     margin-top: 2.5vh;
     margin-right: 4vw;
