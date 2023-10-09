@@ -9,6 +9,7 @@
     background-color: #fffae1;
     width: 100vw;
     border: 1px solid #99621E;
+    position: relative;
 }
 
 .header{
@@ -51,19 +52,22 @@
 
 .container h1{
     text-align: center;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
     font-family: 'Concert One', cursive;
     font-size: 4em;
     color: #F9DC5C;
     text-shadow: 2px 1px #99621E;
-    padding: 2vw;
 }
 
 .gallery{
     margin-left: 3vw;
+    height: 80vh;
 }
 
 .gallery img{
-    height: 200px;
+    height: 30vh;
     border: 8px solid #F9DC5C;
     border-radius: 3px;
     border-style: groove;
@@ -73,7 +77,7 @@
 
 .footer{
     display: block;
-    position: relative;
+    bottom: 0px;
     bottom: 0px;
     height: 10vh;
     width: 100vw;
@@ -85,7 +89,7 @@
     display: inline-block;
     padding-top: 4vh;
     padding-left: 4vw;
-    size: 0.5em;
+    font-size: 0.7em;
     color: #99621E;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
