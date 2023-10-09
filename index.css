@@ -10,14 +10,14 @@
     position: relative;
 }
 
-.header{
-    display: block;
-    position: relative;
-    background-color: #F9DC5C;
-    border: 1px solid #99621E;
-    height: 10vh;
-    width: 100vw;
-}
+ .header{
+        display: block;
+        position: relative;
+        background-color: #F9DC5C;
+        border: 1px solid #99621E;
+        height: 10vh;
+        width: 100vw;
+    }
 
 #navbar{
     float: right;
