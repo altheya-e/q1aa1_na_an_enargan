@@ -12,8 +12,8 @@
 }
 
 .header{
-    display: block;
-    position: relative;
+    display: block
+    position: fixed;
     background-color: #F9DC5C;
     border: 1px solid #99621E;
     height: 10vh;
@@ -103,7 +103,7 @@
 
 .footer{
     display: block;
-    position: relative;
+    position: fixed;
     bottom: 0px;
     height: 10vh;
     width: 100vw;
