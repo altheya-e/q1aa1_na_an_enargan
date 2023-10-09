@@ -1,104 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Courgette&family=Roboto&family=Young+Serif&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Courgette&family=Roboto&family=Young+Serif&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 
-.container{
-    background-color: #fffae1;
-    width: 100vw;
-    border: 1px solid #99621E;
-    position: relative;
-}
+    .container{
+        background-color: #fffae1;
+        width: 100vw;
+        border: 1px solid #99621E;
+        position: relative;
+    }
 
-.header{
-    display: block;
-    position: relative;
-    background-color: #F9DC5C;
-    border: 1px solid #99621E;
-    height: 10vh;
-    width: 100vw;
-}
+    .header{
+        display: block;
+        position: fixed;
+        background-color: #F9DC5C;
+        border: 1px solid #99621E;
+        height: 10vh;
+        width: 100vw;
+    }
 
-#navbar{
-    float: right;
-}
+    #navbar{
+        float: right;
+    }
 
-.header img{
-    display: inline;
-    height: 50px;
-    width: 50px;
-    border: 1px solid #99621E;
-    border-radius: 360px;
-    margin-left: 4vw;
-    margin-top: 1vh;
-}
+    .header img{
+        display: inline;
+        height: 50px;
+        width: 50px;
+        border: 1px solid #99621E;
+        border-radius: 360px;
+        margin-left: 4vw;
+        margin-top: 1vh;
+    }
 
-#links{
-    display: inline-block;
-    float: right;
-    margin-right: 5vw;
-    padding-top: 3.3vh;
-}
-    
-#links a{
-    text-decoration: none;
-    font-size: larger;
-    color: #99621E;
-    text-shadow: 2px 2px #FCEFB4;
-    font-family: 'Concert One', cursive;
-}
+    #links{
+        display: inline-block;
+        float: right;
+        margin-right: 5vw;
+        padding-top: 3.3vh;
+    }
+        
+    #links a{
+        text-decoration: none;
+        font-size: larger;
+        color: #99621E;
+        text-shadow: 2px 2px #FCEFB4;
+        font-family: 'Concert One', cursive;
+    }
 
-.container h1{
-    text-align: center;
-    margin-right: 1vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-    font-family: 'Concert One', cursive;
-    font-size: 4em;
-    color: #F9DC5C;
-    text-shadow: 2px 1px #99621E;
-}
+    .container h1{
+        text-align: center;
+        margin-right: 1vw;
+        margin-bottom: 1vw;
+        margin-top: 10vh;
+        font-family: 'Concert One', cursive;
+        font-size: 4em;
+        color: #F9DC5C;
+        text-shadow: 2px 1px #99621E;
+    }
 
-.gallery{
-    margin-left: 3vw;
-    height: 80vh;
-}
+    .gallery{
+        margin-left: 3vw;
+        margin-bottom: 5vw;
+        height: 80vh;
+    }
 
-.gallery img{
-    height: 30vh;
-    border: 8px solid #F9DC5C;
-    border-radius: 3px;
-    border-style: groove;
-    margin-left: 11.7vw;
-    margin-bottom: 5vh;
-}
+    .gallery img{
+        height: 30vh;
+        border: 8px solid #F9DC5C;
+        border-radius: 3px;
+        border-style: groove;
+        margin-left: 11.7vw;
+        margin-bottom: 5vh;
+    }
 
-.footer{
-    display: block;
-    bottom: 0px;
-    bottom: 0px;
-    height: 10vh;
-    width: 100vw;
-    background-color: #F9DC5C;
-    border: 1px solid #99621E;
-}
+    .footer{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        bottom: 0px;
+        height: 10vh;
+        width: 100vw;
+        background-color: #F9DC5C;
+        border: 1px solid #99621E;
+    }
 
-.footer p{
-    display: inline-block;
-    padding-top: 4vh;
-    padding-left: 4vw;
-    font-size: 0.7em;
-    color: #99621E;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    .footer p{
+        display: inline-block;
+        padding-top: 4vh;
+        padding-left: 4vw;
+        font-size: 0.7em;
+        color: #99621E;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
-.footer img{
-    display: inline;
-    float: right;
-    margin-top: 2.5vh;
-    margin-right: 4vw;
-    height: 35px;
-    width: 35px;
-}
+    .footer img{
+        display: inline;
+        float: right;
+        margin-top: 2.5vh;
+        margin-right: 4vw;
+        height: 35px;
+        width: 35px;
+    }
